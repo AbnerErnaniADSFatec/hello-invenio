@@ -52,6 +52,11 @@ the [InvenioRDM Documentation](https://inveniordm.docs.cern.ch/).
 ## Hello Invenio
 
 ```
+$ sudo apt-get install build-essential
+$ sudo apt-get install -y jq
+```
+
+```
 $ mkdir hello-invenio
 $ python3.7 -m pip install venv
 $ python3.7 -m venv venv
@@ -59,11 +64,8 @@ $ source venv/bin/activate
 ```
 
 ```
-(venv) $ python -m pip install invenio-cli
 (venv) $ python -m pip install --upgrade setuptools
-(venv) $ sudo apt-get install build-essential
-(venv) $ sudo apt-get install -y jq
-
+(venv) $ python -m pip install invenio-cli
 ```
 
 ```
